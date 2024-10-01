@@ -3,6 +3,8 @@
     <v-main>
       <div class="main-content">
         <AppHeader />
+        <AppTecnologies />
+        <AppWork />
       </div>
     </v-main>
   </v-app>
@@ -10,6 +12,8 @@
 
 <script setup>
 import AppHeader from './components/AppHeader.vue'
+import AppTecnologies from './components/AppTechnologies.vue'
+import AppWork from './components/AppWork.vue'
 </script>
 
 <style lang="scss" scoped>
@@ -18,12 +22,18 @@ import AppHeader from './components/AppHeader.vue'
   padding: 0;
   margin: 0;
 }
-
 .v-application {
-  background-color: #e0e0e0; /* Imposta il colore di sfondo */
+  background-color: #e0e0e0;
 }
-
 .main-content {
-  margin: 4rem; /* Margine di 2rem per tutti i contenuti interni */
+  margin: 4rem;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 </style>
