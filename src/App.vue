@@ -5,6 +5,7 @@
         <AppHeader />
         <AppTecnologies />
         <AppWork />
+        <AppFooter />
       </div>
     </v-main>
   </v-app>
@@ -14,6 +15,7 @@
 import AppHeader from './components/AppHeader.vue'
 import AppTecnologies from './components/AppTechnologies.vue'
 import AppWork from './components/AppWork.vue'
+import AppFooter from './components/AppFooter.vue'
 </script>
 
 <style lang="scss" scoped>

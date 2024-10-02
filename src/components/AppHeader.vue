@@ -2,16 +2,16 @@
     <div>
         <h1 class="fade-in">SACCANI<br>CHRISTIAN</h1>
         <div id="social-container" class="fade-in">
-            <a href="https://github.com/tuo-username" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/christiansaccani" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/tuo-username/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/christian-saccani-a9445a208/" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-linkedin-in"></i>
             </a>
-            <a href="mailto:tuo-email@example.com">
+            <a href="mailto:christian.saccani99@gmail.com" id="mail">
                 <i class="fa-regular fa-envelope"></i>
             </a>
-            <a href="https://www.instagram.com/tuo-username/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/christian_saccani/" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-instagram"></i>
             </a>
         </div>
@@ -34,7 +34,7 @@
         animation: fadeIn 1s ease-in forwards;
     }
     #social-container {
-        margin-top: 1.5rem;
+        margin-top: 1.2rem;
         display: flex;
         gap: 1rem;
         opacity: 0;
@@ -44,9 +44,11 @@
             font-size: 24px;
             font-weight: 500;
             cursor: pointer;
-            transition: all .3s linear;
+            padding: .3rem;
+            transition: background-color .3s linear;
+            border-radius: 24px;
             &:hover {
-                color: rgb(115, 115, 115);
+                background-color: white;
             }
         }
     }

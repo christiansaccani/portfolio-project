@@ -8,7 +8,7 @@
                         Catering Service
                     </h3>
                     <p>
-                        I led the redesign of a catering service website, 
+                        I did the redesign of a catering service website, 
                         focusing on creating a more engaging and intuitive user experience through a sleek, 
                         responsive design that highlights the client’s offerings. 
                     </p>
@@ -16,22 +16,22 @@
                         not online yet
                     </span>            
                 </div>
-                <img class="fade-up" src="../assets/catering-project.png" alt="javascript" />
+                <img class="fade-up" src="../assets/catering-project.png" alt="catering-project" />
             </div>  
             <hr>
             <div class="work-card-left">
-                <img class="fade-up" src="../assets/catering-project.png" alt="javascript" />
+                <img class="fade-up" src="../assets/boolivery-project.png" alt="boolivery-project" />
                 <div>
                     <h3 class="txt-right">
-                        Catering Service
+                        Boolivery Project
                     </h3>
                     <p class="txt-right">
-                        I led the redesign of a catering service website, 
-                        focusing on creating a more engaging and intuitive user experience through a sleek, 
-                        responsive design that highlights the client’s offerings. 
+                        I led the front-end design of my final project, 
+                        focusing on crafting a sleek and responsive interface that enhances user engagement 
+                        while delivering an intuitive experience tailored to the project’s objectives.
                     </p>
                     <span class="txt-right">
-                        not online yet
+                        local project
                     </span>            
                 </div>
             </div>
