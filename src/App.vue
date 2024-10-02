@@ -29,6 +29,10 @@ import AppFooter from './components/AppFooter.vue'
 }
 .main-content {
   margin: 4rem;
+
+  @media (max-width: 600px) {
+    margin: 2rem;
+  }
 }
 @keyframes fadeIn {
     from {

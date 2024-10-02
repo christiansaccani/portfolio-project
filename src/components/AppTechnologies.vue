@@ -46,12 +46,25 @@ onMounted(() => {
     margin-top: 4rem;
     padding-bottom: 8rem;
     border-bottom: 3px solid black;
+    @media (max-width: 1024px) {
+        padding-bottom: 4rem;
+    }
+    @media (max-width: 600px) {
+        margin-top: 2rem;
+    }
     
     h2 {
         font-size: 32px;
         margin-bottom: 6rem;
         opacity: 0;
         animation: fadeIn 1s ease-in forwards .75s;
+        @media (max-width: 1024px) {
+            margin-bottom: 4rem;
+        }
+        @media (max-width: 600px) {
+            margin-bottom: 2rem;
+            font-size: 26px;
+        }
     }
 
     #techno-container {
@@ -59,11 +72,30 @@ onMounted(() => {
         display: flex;
         justify-content: space-between;
 
+        @media (max-width: 1024px) {
+            padding: 0rem;
+            flex-wrap: wrap;
+        }
+
         img {
             height: 80px;
             opacity: 0;
             transform: translateY(20px);
             transition: opacity 0.4s ease, transform 0.4s ease;
+
+            @media (max-width: 1024px) {
+                flex: 0 0 20%;
+                margin-bottom: 2rem;
+                text-align: center;
+            }
+
+            @media (max-width: 600px) {
+                flex: 0 0 50%;
+            }
+
+            @media (max-width: 492px) {
+                height: 60px;
+            }
 
             &.visible {
                 opacity: 1;

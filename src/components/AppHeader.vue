@@ -58,6 +58,15 @@
         justify-content: center;
         padding: 8rem 0;
         border-bottom: 3px solid black;
+
+        @media (max-width: 1024px) {
+            padding: 4rem 0;
+        }
+
+        @media (max-width: 600px) {
+            padding: 2rem 0;
+        }
+
         p {
             font-size: 36px;
             font-weight: 500;
@@ -67,6 +76,16 @@
             color: rgb(115, 115, 115);
             opacity: 0;
             animation: fadeIn 1s ease-in forwards .5s;
+
+            @media (max-width: 1024px) {
+                font-size: 32px;
+            }
+            @media (max-width: 600px) {
+                font-size: 22px;
+            }
+            @media (max-width: 492px) {
+                font-size: 18px;
+            }
             span {
                 color: black;
             }

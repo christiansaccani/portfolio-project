@@ -18,8 +18,8 @@
 
 <style lang="scss" scoped>
 #app-footer-container {
-    margin-top: 6rem;
-    padding-bottom: 6rem;
+    margin-top: 4rem;
+    padding-bottom: 4rem;
     border-bottom: 3px solid black;
 
     display: flex;
@@ -27,9 +27,22 @@
     align-items: center;
     gap: 2rem;
 
+    @media (max-width: 492px) {
+        gap: 1.5rem;
+    }
+
+    @media (max-width: 492px) {
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
     p {
         letter-spacing: 2px;
         cursor: default;
+
+        @media (max-width: 492px) {
+            font-size: 14px;
+        }
     }
 
     #mail {
