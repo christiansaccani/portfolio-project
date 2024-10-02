@@ -34,6 +34,12 @@ import AppFooter from './components/AppFooter.vue'
     margin: 2rem;
   }
 }
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -42,4 +48,5 @@ import AppFooter from './components/AppFooter.vue'
         opacity: 1;
     }
 }
+
 </style>

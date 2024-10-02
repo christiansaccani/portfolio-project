@@ -30,14 +30,14 @@
     h1 {
         line-height: 1.2;
         letter-spacing: 4px;
-        opacity: 0;
+        opacity: 1;
         animation: fadeIn 1s ease-in forwards;
     }
     #social-container {
         margin-top: 1.2rem;
         display: flex;
         gap: 1rem;
-        opacity: 0;
+        opacity: 1;
         animation: fadeIn 1s ease-in forwards .25s;
         i {
             color: black;
@@ -74,7 +74,7 @@
             max-width: 1120px;
             line-height: 2;
             color: rgb(115, 115, 115);
-            opacity: 0;
+            opacity: 1;
             animation: fadeIn 1s ease-in forwards .5s;
 
             @media (max-width: 1024px) {

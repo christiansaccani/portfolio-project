@@ -54,18 +54,20 @@ onMounted(() => {
     }
     
     h2 {
-        font-size: 32px;
-        margin-bottom: 6rem;
-        opacity: 0;
-        animation: fadeIn 1s ease-in forwards .75s;
-        @media (max-width: 1024px) {
-            margin-bottom: 4rem;
-        }
-        @media (max-width: 600px) {
-            margin-bottom: 2rem;
-            font-size: 26px;
-        }
+    font-size: 32px;
+    margin-bottom: 6rem;
+    opacity: 1; // Imposta l'opacità a 1 per la visibilità iniziale
+    animation: fadeIn 1s ease-in forwards .75s; // Mantieni l'animazione
+
+    @media (max-width: 1024px) {
+        margin-bottom: 4rem;
     }
+    @media (max-width: 600px) {
+        margin-bottom: 2rem;
+        font-size: 26px;
+    }
+}
+
 
     #techno-container {
         padding: 0 4rem;
